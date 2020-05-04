@@ -2,7 +2,7 @@
 
 This project intends to locate the elements that cause train delays. The goal is to build a model which takes in train number, date, and station, and gives the predicted arrival time of the train. 
 
-Potential models include decision tree, k-nearest-neighbor, or neural network. As for feature selection, besides the [given dataset](https://www.kaggle.com/septa/on-time-performance), weather data will also be collected via an API as weather could be a significant factor in OTP. When giving predictions, if the selected date is within 7 days, a weather forecast would also be pulled to be considered. Otherwise, weather would be excluded from the model. The OTP of the previous train is also taken into account, especially in the densely served stations in central Philadelphia. A delay of a train at 30th Station could set up a series of subsequent delays. 
+Potential models include decision tree, k-nearest-neighbor, or neural network. As for feature selection, besides the [given dataset](https://www.kaggle.com/septa/on-time-performance), weather data will also be collected via an API as weather could be a significant factor in OTP. When giving predictions, if the selected date is within 7 days, a weather forecast would also be pulled to be considered. Otherwise, weather would be excluded from the model. 
 
 This project is particularly of interest to people who commutes daily from central Philadelphia to the suburban area. The predictions could also be useful for train schedulers and dispatchers to help them understand the bottleneck of the rail network.
 
